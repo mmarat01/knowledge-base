@@ -6,22 +6,21 @@ export const measures = {
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
 };
 
-export const palette = {
-  colors: {
-    black: "#000",
-    white: "#fff",
-    primary: "#363434",
-    secondary: "#5C5757",
-    background: "#efecec",
-    standout: "#62929A",
-  },
-  shadows: {
-    deep: "0px 0px 4px 2px rgba(0, 0, 0, 0.2)",
-    subtle: "0px 0px 8px 2px rgba(0, 0, 0, 0.2)",
-    mixed: "2px 2px 4px 2px rgba(0, 0, 0, 0.2)",
-    minimal: "2px 2px 8px 0px rgba(0, 0, 0, 0.2)",
-    float: "4px 4px 8px 0px rgba(0, 0, 0, 0.2)",
-  },
+export const colors = {
+  black: "#000",
+  white: "#fff",
+  primary: "#363434",
+  secondary: "#C4C4C4",
+  light: "#efecec",
+  standout: "#62929A",
+};
+
+export const shadows = {
+  deep: "0px 0px 4px 2px rgba(0, 0, 0, 0.2)",
+  subtle: "0px 0px 8px 2px rgba(0, 0, 0, 0.2)",
+  mixed: "2px 2px 4px 2px rgba(0, 0, 0, 0.2)",
+  minimal: "2px 2px 8px 0px rgba(0, 0, 0, 0.2)",
+  float: "4px 4px 8px 0px rgba(0, 0, 0, 0.2)",
 };
 
 export const text = {
@@ -38,10 +37,4 @@ export const text = {
     body: 1.5,
     heading: 1.125,
   },
-};
-
-export const theme = {
-  ...measures,
-  ...palette,
-  ...text,
 };
