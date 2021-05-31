@@ -142,10 +142,9 @@ const App = () => {
         </p>
         <br />
         <p>
-          I did this little thing here where my primitive components are
-          (mostly) styled via props (e.g. mx, my, bg...). i discovered this
-          method first by looking at stitches, and then styled system. cool
-          stuff!
+          I did this little thing here where my primitive components are mostly
+          styled via props (e.g. mx, my, bg...). I discovered this method first
+          by looking at stitches, and then styled system. Cool stuff!
         </p>
       </Box>
       <Box mt='2rem' py='2rem' bg={colors.light} align='center'>
