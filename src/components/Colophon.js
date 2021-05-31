@@ -14,15 +14,39 @@ const Colophon = () => {
       <p>Made by Mijael Maratuech Seminario.</p>
       <br />
       <p>
-        Built with React and JSS, deployed with and to Vercel, open sourced on
-        GitHub.
+        Built with{" "}
+        <a href='https://reactjs.org' target='_blank' rel='noreferrer'>
+          React
+        </a>{" "}
+        and{" "}
+        <a href='https://cssinjs.org' target='_blank' rel='noreferrer'>
+          JSS
+        </a>
+        , built and deployed with{" "}
+        <a href='https://vercel.com/' target='_blank' rel='noreferrer'>
+          Vercel
+        </a>
+        , open sourced on{" "}
+        <a
+          href='https://github.com/mmarat01/knowledge-base'
+          target='_blank'
+          rel='noreferrer'>
+          GitHub
+        </a>
+        .
       </p>
       <br />
       <p>
         I did this little thing here where my primitive components are mostly
-        styled via props (e.g. mx, my, bg...). I discovered this method first by
-        looking at stitches, and then styled system. Cool stuff!
+        styled via props (e.g. mx, my, bg...). I discovered this method by first
+        looking at <a href='https://stitches.dev'>Stitches</a>, and then{" "}
+        <a href='https://styled-system.com' target='_blank' rel='noreferrer'>
+          Styled System
+        </a>
+        .
       </p>
+      <br />
+      <p>Cool stuff!</p>
     </Box>
   );
 };
