@@ -12,7 +12,7 @@ export const colors = {
   primary: "#363434",
   secondary: "#C4C4C4",
   light: "#efecec",
-  standout: "#00D9FF",
+  standout: "#45E3FF",
 };
 
 export const shadows = {
