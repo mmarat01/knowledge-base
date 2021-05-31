@@ -24,12 +24,26 @@ const useBoxStyles = createUseStyles({
   },
 });
 
+const useLinkStyles = createUseStyles({
+  linkStyles: {},
+});
+
 const useParagraphStyles = createUseStyles({
   paragraphStyles: {},
 });
 
+const useHeadingStyles = createUseStyles({
+  headingStyles: {},
+});
+
 const useListStyles = createUseStyles({
-  listStyles: {},
+  listStyles: {
+    // margins
+    marginTop: props => props.mt || props.my,
+    marginBottom: props => props.mb || props.my,
+    marginLeft: props => props.ml || props.mx,
+    marginRight: props => props.mr || props.mx,
+  },
 });
 
 /***********/
@@ -51,6 +65,15 @@ export const Link = ({ children, url, ...props }) => {
 export const Paragraph = ({ children, ...props }) => {
   const s = useParagraphStyles(props);
   return <p className={s.paragraphStyles}>{children}</p>;
+};
+
+export const Heading = ({ children, main, ...props }) => {
+  const s = useHeadingStyles(props);
+  return main ? (
+    <h1 className={s.headingStyles}>{children}</h1>
+  ) : (
+    <h2 className={s.headingStyles}>{children}</h2>
+  );
 };
 
 export const List = ({ children, num, ...props }) => {

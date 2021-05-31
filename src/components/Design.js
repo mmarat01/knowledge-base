@@ -4,13 +4,7 @@ import { colors } from "../tokens";
 
 const Design = () => {
   return (
-    <Box
-      mx='3rem'
-      my='2rem'
-      px='1rem'
-      py='1rem'
-      bg={colors.secondary}
-      tc={colors.black}>
+    <Box mx='3rem' px='1rem' py='1rem' bg={colors.secondary} tc={colors.black}>
       Design section
     </Box>
   );

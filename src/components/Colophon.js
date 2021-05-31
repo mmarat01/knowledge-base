@@ -1,16 +1,10 @@
 import React from "react";
-import { Box, Paragraph } from "./primitives";
+import { Box, Link, Paragraph } from "./primitives";
 import { colors } from "../tokens";
 
 const Colophon = () => {
   return (
-    <Box
-      mx='1rem'
-      my='1rem'
-      px='1rem'
-      py='1rem'
-      bg={colors.standout}
-      tc={colors.black}>
+    <Box mx='1rem' px='1rem' py='1rem' bg={colors.standout} tc={colors.black}>
       <p>Made by Mijael Maratuech Seminario.</p>
       <br />
       <p>

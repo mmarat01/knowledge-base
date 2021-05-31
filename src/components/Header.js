@@ -1,14 +1,14 @@
 import React from "react";
-import { Box, Link, Paragraph } from "./primitives";
+import { Box, Link, Heading } from "./primitives";
 import { colors } from "../tokens";
 
 const Header = () => {
   return (
-    <Box px='2rem' py='1rem' bg={colors.light} tc={colors.black}>
-      <p>
+    <Box mb='2rem' px='2rem' py='1rem' bg={colors.light} tc={colors.black}>
+      <Heading main={true}>
         Hi there how are you my name is Mijael and this is my knowledge base --
         or at least something like it.
-      </p>
+      </Heading>
       <br />
       <p>
         This design was heavily inspired by the{" "}
