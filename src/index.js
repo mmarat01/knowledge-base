@@ -134,7 +134,7 @@ const App = () => {
         py='1rem'
         bg={colors.standout}
         tc={colors.white}>
-        <p>Made by Mijael Maratuech Seminario..</p>
+        <p>Made by Mijael Maratuech Seminario.</p>
         <br />
         <p>
           Built with React and JSS, deployed with and to Vercel, open sourced on
