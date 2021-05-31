@@ -15,7 +15,7 @@ const Header = () => {
         <a href='https://jamstack.wtf' target='_blank' rel='noreferrer'>
           jamstack.wtf
         </a>{" "}
-        website. It's also the first thing i've done from scratch in React.
+        website.
       </p>
     </Box>
   );
