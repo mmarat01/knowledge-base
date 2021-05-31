@@ -40,8 +40,8 @@ const useStyles = createUseStyles({
       color: "inherit",
     },
     "::selection": {
-      backgroundColor: "#FFA7FF",
-      color: "#000",
+      backgroundColor: "#000",
+      color: "#fff",
     },
   },
 });
