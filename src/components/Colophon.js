@@ -10,7 +10,7 @@ const Colophon = () => {
       px='1rem'
       py='1rem'
       bg={colors.standout}
-      tc={colors.white}>
+      tc={colors.black}>
       <p>Made by Mijael Maratuech Seminario.</p>
       <br />
       <p>

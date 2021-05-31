@@ -10,7 +10,7 @@ const TableOfContents = () => {
       px='1rem'
       py='1rem'
       bg={colors.standout}
-      tc={colors.white}>
+      tc={colors.black}>
       <p>This is where i want the table of contents to be.</p>
       <br />
       <p>
