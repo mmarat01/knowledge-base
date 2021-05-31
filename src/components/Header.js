@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Link } from "./primitives";
+import { Box, Link, Paragraph } from "./primitives";
 import { colors } from "../tokens";
 
 const Header = () => {

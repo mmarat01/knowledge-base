@@ -24,9 +24,13 @@ const useBoxStyles = createUseStyles({
   },
 });
 
-const useParagraphStyles = createUseStyles({});
+const useParagraphStyles = createUseStyles({
+  paragraphStyles: {},
+});
 
-const useListStyles = createUseStyles({});
+const useListStyles = createUseStyles({
+  listStyles: {},
+});
 
 /***********/
 /* EXPORTS */
@@ -49,9 +53,9 @@ export const Paragraph = ({ children, ...props }) => {
   return <p className={s.paragraphStyles}>{children}</p>;
 };
 
-export const List = ({ children, order, ...props }) => {
+export const List = ({ children, num, ...props }) => {
   const s = useListStyles(props);
-  return order ? (
+  return num ? (
     <ol className={s.listStyles}>{children}</ol>
   ) : (
     <ul className={s.listStyles}>{children}</ul>

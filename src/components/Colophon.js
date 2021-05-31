@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Link } from "./primitives";
+import { Box, Paragraph } from "./primitives";
 import { colors } from "../tokens";
 
 const Colophon = () => {

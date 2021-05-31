@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "./primitives";
+import { Box, Paragraph, List } from "./primitives";
 import { colors } from "../tokens";
 
 const Software = () => {
