@@ -7,5 +7,5 @@ to run:
 - yarn
 - yarn start
 
-for prod build:
+to build static files:
 - yarn build
