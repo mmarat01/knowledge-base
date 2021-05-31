@@ -1,5 +1,5 @@
 import React from "react";
-import Box from "./primitives/Box";
+import { Box, Link } from "./primitives";
 import { colors } from "../tokens";
 
 const Header = () => {
@@ -12,10 +12,7 @@ const Header = () => {
       <br />
       <p>
         This design was heavily inspired by the{" "}
-        <a href='https://jamstack.wtf' target='_blank' rel='noreferrer'>
-          jamstack.wtf
-        </a>{" "}
-        website.
+        <Link url='https://jamstack.wtf'>jamstack.wtf</Link> website.
       </p>
     </Box>
   );
