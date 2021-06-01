@@ -17,7 +17,7 @@ const Colophon = () => {
       <p>
         I did this little thing here where my primitive components are mostly
         styled via props (e.g. mx, my, bg...). I discovered this method by first
-        looking at <Link url='https://stitches.dev'>Stitches</Link>, and then{" "}
+        looking at Pedro Duarte's<Link url='https://ped.ro/blog/wallop-system-built-with-modulz'>Wallop System</Link>, and then Brent Jackson's{" "}
         <Link url='https://styled-system.com'>Styled System</Link>.
       </p>
       <br />
