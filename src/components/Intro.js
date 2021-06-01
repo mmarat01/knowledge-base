@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Paragraph } from "./primitives";
+import { Box } from "./primitives";
 import { colors } from "../tokens";
 
 const Intro = () => {

@@ -55,8 +55,9 @@ export const Box = ({ children, ...props }) => {
 };
 
 export const Link = ({ children, url, ...props }) => {
+  const s = useLinkStyles(props);
   return (
-    <a href={url} target='_blank' rel='noreferrer'>
+    <a class={s.linkStyles} href={url} target='_blank' rel='noreferrer'>
       {children}
     </a>
   );
