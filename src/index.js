@@ -29,9 +29,8 @@ const useStyles = createUseStyles({
       overscrollBehavior: "contain",
       font: {
         size: "1rem",
-        family: `'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif`,
+        family:
+          "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif",
       },
       color: "#000",
       backgroundColor: "#fff",
